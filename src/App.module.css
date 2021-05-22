@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.table_area {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.user_info {
+  width: 35%;
+}
+
+.user_info>img {
+  width: 100%;
+}
+
+.input_block, .pages_block {
+  width: 100%;
+}
+
+.pages_block {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.page_btn {
+  margin: .5%;
+  border: 1px solid rgb(49, 49, 49);
+  background-color: rgb(255, 233, 110);
+}
+
+.input_block>input {
+  width: 79%;
+}
+
+.input_block>button {
+  width: 20%;
+  background-color: #ffffff;
+}
+
+
+.normalCell {
+  background-color: grey;
+}
+
+.normalCell>input {
+  width: 90%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.activeCell {
+  background-color: rgb(255, 233, 110);
+}
+
+.toogle_block {
+  display: flex;
+  flex-direction: row;
+}
+
+.toogle_block img {
+  width: 20px;
+  height: 20px;
+}
